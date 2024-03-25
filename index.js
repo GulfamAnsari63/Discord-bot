@@ -32,4 +32,4 @@ client.on('interactionCreate', (interaction) => {
   console.log(interaction);
 });
 
-client.login('MTE4ODMyODg5ODY2OTMxNDA5OQ.GoDbIU.v3zYkpvtBIC_PyZwCprPo69ahDDO0_NoF-5yxE');
+client.login('Discord-client-id');
