@@ -9,7 +9,7 @@ const commands = [
 ];
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MEMBERS] });
-const rest = new REST({ version: '10' }).setToken("MTE4ODMyODg5ODY2OTMxNDA5OQ.GoDbIU.v3zYkpvtBIC_PyZwCprPo69ahDDO0_NoF-5yxE");
+const rest = new REST({ version: '10' }).setToken("Your Discord token");
 
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
@@ -34,4 +34,4 @@ async function updateCommands() {
     console.error(error);
   }
 }
-client.login("1188328898669314099");
+client.login("Discord Client-id");
